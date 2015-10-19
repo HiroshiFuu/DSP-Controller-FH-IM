@@ -52,6 +52,7 @@ namespace DSP_Controller
         private string[] seriesNames;
         private int ReadMsgIndex = 0;
         private int LoadMsgIndex = 0;
+        private int MaxMsgCnt = 18;
         #endregion
 
         #region From Init Function
@@ -63,8 +64,8 @@ namespace DSP_Controller
         private void Form1_Load(object sender, EventArgs e)
         {
             ComPort = new SerialPort();
-            serialMsg = new SerialMessage[8];
-            for (int i = 0; i < 8; i++)
+            serialMsg = new SerialMessage[MaxMsgCnt];
+            for (int i = 0; i < MaxMsgCnt; i++)
                 serialMsg[i] = new SerialMessage();
             serialMsgSend = new SerialMessage();
 
@@ -605,13 +606,14 @@ namespace DSP_Controller
             if (rb.Tag.ToString() == "1")
             {
                 command |= 0x10000000;
-                lbTorque.Visible = tbTorque.Visible = btnApplyTorque.Visible = lbTorqueCurve.Enabled = rtbTorque.Enabled = btnApplyTorqueCurve.Enabled = false;
+                lbTorque.Visible = tbTorque.Visible = btnApplyTorque.Visible = lbTorqueCurve.Enabled = rtbTorque.Enabled = btnApplyTorqueCurve.Enabled = lbTorqueUnit.Visible = false;
                 return;
             }
             if (rb.Tag.ToString() == "2")
             {
                 command |= 0x01000000;
-                lbTorque.Visible = tbTorque.Visible = btnApplyTorque.Visible = lbTorqueCurve.Enabled = rtbTorque.Enabled = btnApplyTorqueCurve.Enabled = true;
+                lbTorque.Visible = tbTorque.Visible = btnApplyTorque.Visible = lbTorqueCurve.Enabled = rtbTorque.Enabled = btnApplyTorqueCurve.Enabled = 
+                    lbTorqueUnit.Visible = true;
                 return;
             }
         }
@@ -751,7 +753,7 @@ namespace DSP_Controller
                         }
                         BeginInvoke(ProcessDelegate);
                         ReadMsgIndex++;
-                        if (ReadMsgIndex == 8)
+                        if (ReadMsgIndex == MaxMsgCnt)
                             ReadMsgIndex = 0;
                         i += 7;
                     }
@@ -953,7 +955,7 @@ namespace DSP_Controller
                     timerConnect.Stop();
                     UInt16 mask = 0x1;
                     int target = Array.IndexOf(ParaAddress, serialMsg[LoadMsgIndex].MsgId);
-                    if (target < 0)
+                    if (target < 0 || target > 8)
                         return;
                     for (int i = 0; i < target; i++)
                         mask <<= 1;
@@ -973,7 +975,7 @@ namespace DSP_Controller
                     }
                 }
             LoadMsgIndex++;
-            if (LoadMsgIndex == 8)
+            if (LoadMsgIndex == MaxMsgCnt)
                 LoadMsgIndex = 0;
         }
 

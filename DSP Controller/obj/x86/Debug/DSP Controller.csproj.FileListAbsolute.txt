@@ -31,3 +31,11 @@ F:\GUI for Semikron\DSP Controller\DSP Controller\obj\x86\Debug\DSP Controller.e
 F:\GUI for Semikron\DSP Controller\DSP Controller\obj\x86\Debug\DSP Controller.pdb
 F:\DSP Controller FH\DSP Controller\obj\x86\Debug\DSP Controller.exe
 F:\DSP Controller FH\DSP Controller\obj\x86\Debug\DSP Controller.pdb
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Debug\DSP Controller.exe.config
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Debug\DSP Controller.exe
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Debug\DSP Controller.pdb
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Debug\DSP Controller.exe
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Debug\DSP Controller.pdb
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Debug\DSP_Controller.Form1.resources
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Debug\DSP_Controller.Properties.Resources.resources
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Debug\DSP Controller.csproj.GenerateResource.Cache

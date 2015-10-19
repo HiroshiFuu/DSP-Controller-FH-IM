@@ -105,3 +105,23 @@ I:\DSP Controller FH IM\DSP Controller\obj\x86\Release\DSP_Controller.Form1.reso
 I:\DSP Controller FH IM\DSP Controller\obj\x86\Release\DSP_Controller.Properties.Resources.resources
 I:\DSP Controller FH IM\DSP Controller\obj\x86\Release\DSP Controller.csproj.GenerateResource.Cache
 G:\DSP Controller FH IM\DSP Controller\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.exe.config
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.exe
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.pdb
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.exe
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.pdb
+Z:\DSP-Controller-FH-IM\DSP Controller\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.csprojResolveAssemblyReference.cache
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP_Controller.Form1.resources
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP_Controller.Properties.Resources.resources
+Z:\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.csproj.GenerateResource.Cache
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.exe.config
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.exe
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.pdb
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.exe
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\bin\Release\DSP Controller.pdb
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\bin\Release\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.csprojResolveAssemblyReference.cache
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP_Controller.Form1.resources
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP_Controller.Properties.Resources.resources
+C:\Feng Hao\DSP-Controller-FH-IM\DSP Controller\obj\x86\Release\DSP Controller.csproj.GenerateResource.Cache
